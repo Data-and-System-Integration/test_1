@@ -40,14 +40,24 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports>
-      <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.data_object.data_object.pub_cns_combined_flattened_bre</type>
-      </org.kie.soup.project.datamodel.imports.Import>
-    </imports>
+    <imports/>
   </imports>
   <packageName>com.automation_space.test_1</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
-  <data/>
+  <data>
+    <list>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+  </data>
 </decision-table52>
